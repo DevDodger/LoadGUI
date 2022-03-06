@@ -2,17 +2,17 @@ pcall(function()
 	game.StarterGui:SetCore("SendNotification", {
 		Title = 'Eclipse Client';
 		Text = 'Premium Edition'; --mainfghuewfewfw
-		Duration = 15;
+		Duration = 5;
 	})
 	if not game.Players.LocalPlayer:IsInGroup(14128437) then
 		coroutine.resume(coroutine.create(function()
-			wait(10)
+			wait(2)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = 'you are NOT in the group';
-				Text = 'join our group!';
-				Duration = 10;
+				Text = 'join our group! (On your Clipboard!';
+				Duration = 15;
 			})
-			setclipboard('https://roblox.com/groups/14128437/D-DW-Da-Hood-Cash#!/about')
+			setclipboard('https://www.roblox.com/groups/14128437/D-DW-Da-Hood-Cash#!/about')
 		end))
 	end
 end)
