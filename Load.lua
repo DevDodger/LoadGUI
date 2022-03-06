@@ -6,7 +6,7 @@ pcall(function()
 	})
 	if not game.Players.LocalPlayer:IsInGroup(14128437) then
 		coroutine.resume(coroutine.create(function()
-			wait(2)
+			wait(2) --;la
 			game.StarterGui:SetCore("SendNotification", {
 				Title = 'you are NOT in the group';
 				Text = 'join our group! (On your Clipboard!';
